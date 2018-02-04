@@ -1,0 +1,27 @@
+1- CorrelationMatrix.png
+
+	This figure it shows how the features are correlated to it's classes. The benefit of this is to get the relevant features.
+	
+	--> This image to be used on the preprocessing section.
+	
+2- featureCorrelation.png
+	
+	Features correlations helps us compare each feture with eack other and then eliminate redundent features so that the model is not distorted.
+	
+	Looking at the graph output.png, we can see that there are correlations between "direct_bilirubin" and "total_bilirubin" (strong), "aspartate_aminotransferase" and "alamine_aminotransferase" (a little strong), "albumin" and "total_protiens" (a little strong), "A/G" and "albumin" (a little strong). Let's calculate the Standard correlation coefficient (pearson)!
+	
+	--> I think the second describtion is not useful because we did not reduce our features in the code. So better we do not talk about it.(Salman)
+	
+3- ConfusionMatrices.png
+
+	This figure shows the confusion matrices of all of our models.
+	
+	--> We can split the image into 7 smaller images for each model. (Salman)
+	
+5- datasetSample.png
+
+	This figure or table is showing few sample data of our dataset after we did the preprocessing phase.
+	
+6- datasetSampleRaw.png
+
+	This figure or table is showing few sample data of our dataset before doing preprocessing phase.
